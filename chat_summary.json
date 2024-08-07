@@ -12,5 +12,11 @@
         "content": "Change the background to be video game themed",
         "timestamp": "07082024231619",
         "message_id": "guest07082024231619"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "I understand, I'll work on making the background video game themed.",
+        "timestamp": "07082024231619",
+        "message_id": "guest07082024231619"
     }
 ]
