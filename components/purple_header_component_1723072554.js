@@ -7,7 +7,7 @@
 Vue.component("purple_header_component_1723072554", {
     template: `
     <header class="w-full z-30" id="header-section-container">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-gray-900 bg-opacity-80 backdrop-blur-md">
             <div class="flex items-center justify-between h-16 md:h-20">
     
                 <div id="site-branding" class="flex-1"><a id="logo-link" class="inline-flex" href="index.html" aria-label="Cruip"><img id="logo-image" class="max-w-none" src="./images/logo.svg" width="38" height="38" alt="Stellar"></a></div>
@@ -59,12 +59,12 @@ Vue.component("purple_header_component_1723072554", {
             return {
                 expanded: false, 
                 tab: null,
-                textStylePrimary: 'text-slate-300',
-                hoverTextStylePrimary: 'hover:text-white',
-                signUpButtonText: "text-slate-300",
-                signUpButtonHover: "hover:text-white",
-                signUpButtonGradient: "[background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box]",
-                signUpButtonArrow: "text-purple-500",
+                textStylePrimary: 'text-green-400',
+                hoverTextStylePrimary: 'hover:text-yellow-300',
+                signUpButtonText: "text-green-400",
+                signUpButtonHover: "hover:text-yellow-300",
+                signUpButtonGradient: "[background:linear-gradient(theme(colors.gray.800),_theme(colors.gray.900))_padding-box,_conic-gradient(theme(colors.green.400),_theme(colors.blue.500)_25%,_theme(colors.blue.500)_75%,_theme(colors.green.400)_100%)_border-box]",
+                signUpButtonArrow: "text-blue-500",
             };
         },
     });
